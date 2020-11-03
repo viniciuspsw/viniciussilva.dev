@@ -15,14 +15,14 @@ const Layout = ({ children }) => (
       <header className="mx-auto container px-4 py-6">
         <div className="flex w-full justify-between items-center">
           <Link to="/" className="font-bold text-3x1">
-            viniciussilva.dev
+            Vinícius Silva
           </Link>
           <nav className="flex items-center">
             {/* <Link to="/blog" className="p-2 mr-8">
               Blog
             </Link> */}
             <a
-              href="https://linkedin.com/in/viniciuspwd"
+              href="https://linkedin.com/in/viniciusps"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 mr-8"
