@@ -12,7 +12,7 @@ export default () => {
         }
       }
 
-      photo: file(relativePath: { eq: "images/me.jpg" }) {
+      photo: file(relativePath: { eq: "images/me.png" }) {
         childImageSharp {
           fixed(width: 100, height: 100) {
             ...GatsbyImageSharpFixed
@@ -34,7 +34,7 @@ export default () => {
             />
             <div className="ml-6">
               <h1 className="text-2xl sm:text-3xl font-black">Vinícius Silva</h1>
-              <h4 className="text-lg sm:text-xl text-gray-800">Full-Stack Developer</h4>
+              <h4 className="text-lg sm:text-xl text-gray-800">Software Developer</h4>
             </div>
           </div>
           <p className="text-base sm:text-xl text-gray-800 md:max-w-2xl">
